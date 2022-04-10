@@ -1,3 +1,4 @@
+/* Implementar um algoritmo capaz de encontrar o maior dentre 3 nÃºmeros quaisquer. Suponha todos serem distintos.*/
 package projeto;
 import java.util.Scanner;
 public class ex7 {
@@ -9,13 +10,13 @@ public class ex7 {
 		int b;
 		int c;
 		
-		System.out.println("Digite o 1º numero: ");
+		System.out.println("Digite o 1Âº numero: ");
 			a = ler.nextInt();
 		
-		System.out.println("Digite o 2º numero: ");
+		System.out.println("Digite o 2Âº numero: ");
 		 	b = ler.nextInt();
 		
-		System.out.println("Digite o 3º numero: ");
+		System.out.println("Digite o 3Âº numero: ");
 		 	c = ler.nextInt();
 		
 		if(a>b && a>c) {
