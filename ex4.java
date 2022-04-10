@@ -1,3 +1,4 @@
+/* Fazer um algoritmo que dado um número, calcular e escrever se este é positivo ou negativo, e múltiplo ou não de 3, ao mesmo tempo*/
 package projeto;
 import java.util.Scanner;
 public class ex4 {
