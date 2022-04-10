@@ -1,3 +1,4 @@
+/* Fazer um algoritmo que dado três valores A, B e C verificar se eles formam um triângulo. Formando triângulo, dizer se é triângulo equilátero, isósceles ou escaleno.*/
 package projeto;
 import java.util.Scanner;
 public class ex6 {
