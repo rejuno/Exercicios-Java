@@ -1,3 +1,4 @@
+/* Elabore um algoritmo que calcule o valor do fatorial de um número informado pelo usuário. Lembrando que 0! = 1.*/
 package projeto;
 import java.util.Scanner;
 public class ex5 {
