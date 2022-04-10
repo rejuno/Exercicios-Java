@@ -1,3 +1,4 @@
+/*Desenvolver um algoritmo que leia um número inteiro e verifique se o número é divisível por 5 e por 3 ao mesmo tempo. A solução deverá ser impressa na tela.*/
 package projeto;
 import java.util.Scanner;
 
@@ -7,11 +8,11 @@ public class ex1{
 	
 			// TODO Auto-generated method stub
 				Scanner ler = new Scanner(System.in);
-				System.out.println("Digite um n�mero que � divisivel por 3 e 5: ");
+				System.out.println("Digite um número que é divisivel por 3 e 5: ");
 				int num = ler.nextInt();
 				
 				if(num%5 == 0 && num%3 == 0) {
-					System.out.println("Parab�ns! O n�mero � divisivel por 3 e 5!");
+					System.out.println("Parabéns! O número é divisivel por 3 e 5!");
 				} else {
 					System.out.println("Resposta Errada");
 				}
