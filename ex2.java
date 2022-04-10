@@ -1,3 +1,4 @@
+/*Dados quatro n√∫meros distintos digitados pelo usu√°rio, desenvolver um algoritmo que determine e imprima a soma dos tr√™s n√∫meros menores.*/
 package projeto;
 import java.util.Scanner;
 public class ex2 {
@@ -11,7 +12,7 @@ int [] num = new int[4];
 		int count = 0;
 		
 		for(count = 0; count < 4; count++) {
-			System.out.println("Digite um n˙mero: ");
+			System.out.println("Digite um n√∫mero: ");
 			num[count] = ler.nextInt();
 		
 		}
@@ -19,27 +20,27 @@ int [] num = new int[4];
 		
 		if( num[0] >= num[1] && num[0] >= num[2] && num[0] >= num[3]) {
 			
-			System.out.println("O maior n˙mero È: " + num[0]);
+			System.out.println("O maior n√∫mero √©: " + num[0]);
 			int resultado = num[1] + num[2] + num[3];
-			System.out.println("A soma dos 3 menores s„o: " + resultado);
+			System.out.println("A soma dos 3 menores s√£o: " + resultado);
 			
 	} else if (num[1] >= num[0] && num[1] >= num[2] && num[1] >= num[3]) {
 			
-			System.out.println("O maior n˙mero È: " + num[2]);
+			System.out.println("O maior n√∫mero √©: " + num[2]);
 			int resultado = num[0] + num[2] + num[3];
-			System.out.println("A soma dos 3 menores s„o: " + resultado);
+			System.out.println("A soma dos 3 menores s√£o: " + resultado);
 			
 	} else if (num[2] >= num[0] && num[2] >= num[1] && num[2] >= num[3]) {
 			
-			System.out.println("O maior n˙mero È: " + num[2]);
+			System.out.println("O maior n√∫mero √©: " + num[2]);
 			int resultado = num[1] + num[0] + num[3];
-			System.out.println("A soma dos 3 menores s„o: " + resultado);
+			System.out.println("A soma dos 3 menores s√£o: " + resultado);
 			
 	} else if (num[3] >= num[0] && num[3] >= num[2] && num[3] >= num[1]) {
 			
-			System.out.println("O maior n˙mero È: " + num[3]);
+			System.out.println("O maior n√∫mero √©: " + num[3]);
 			int resultado = num[1] + num[2] + num[0];
-			System.out.println("A soma dos 3 menores s„o: " + resultado);
+			System.out.println("A soma dos 3 menores s√£o: " + resultado);
 		
 		}
 		
